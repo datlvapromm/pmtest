@@ -21,3 +21,5 @@ jobs:
     steps:
       - name: Run a one-line script
         run: echo Hello from Octo Organization
+      - name: Run a one-line script
+        run: newman run ./postman/collections/dat-collection.json
