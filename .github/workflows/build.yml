@@ -12,4 +12,4 @@ jobs:
       - name: Echo Hello World
         run: echo "Hello World"
       - name: Run collection
-        run: newman run postman/collections/New-Collection.json
+        run: newman run ./postman/collections/New-Collection.json
