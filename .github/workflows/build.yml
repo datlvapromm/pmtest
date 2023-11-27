@@ -11,5 +11,7 @@ jobs:
     steps:
       - name: Echo Hello World
         run: echo "Hello World"
+      - uses: actions/checkout@master
+        name: Checkout
       - name: Run collection
         run: newman run ./postman/collections/New-Collection.json
