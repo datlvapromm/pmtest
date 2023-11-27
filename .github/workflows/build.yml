@@ -11,5 +11,7 @@ jobs:
     steps:
       - name: Echo Hello World
         run: echo "Hello World"
+      - name: directory
+        run: ls
       - name: Run a one-line script
         run: newman run ./postman/collections/New-Collection.json
