@@ -13,4 +13,4 @@ jobs:
         run: echo "Hello World"
       - uses: ./postman/collections
         name: Run collection
-        run: newman run ./postman/collections/New-Collection.json
+        run: newman run postman/collections/New-Collection.json
