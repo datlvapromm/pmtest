@@ -16,9 +16,9 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "google{{prefix}}",
+					"raw": "{{domain}}{{prefix}}",
 					"host": [
-						"google{{prefix}}"
+						"{{domain}}{{prefix}}"
 					]
 				}
 			},
@@ -49,13 +49,13 @@
 	],
 	"variable": [
 		{
-			"id": "4963f83b-4721-42ab-bf88-c0bb9ba7a9b7",
+			"id": "69fd9223-3f7a-4dba-80a9-093f14b48f5b",
 			"key": "domain",
 			"value": "google",
 			"type": "string"
 		},
 		{
-			"id": "7538bba7-cb09-41e5-8873-ee1427ad50c3",
+			"id": "507178c8-65f8-4a86-8c58-66cba1af2a7d",
 			"key": "col_var2",
 			"value": "2",
 			"type": "string",
