@@ -16,10 +16,9 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "google.com",
+					"raw": "google{{prefix}}",
 					"host": [
-						"google",
-						"com"
+						"google{{prefix}}"
 					]
 				}
 			},
