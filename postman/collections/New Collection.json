@@ -29,7 +29,7 @@
 		{
 			"listen": "prerequest",
 			"script": {
-				"id": "e0c85f90-55d8-41c5-9dcf-82c70ecc7f07",
+				"id": "8b10f7bc-6b8d-4ad3-89ad-bbbdb589c30f",
 				"type": "text/javascript",
 				"exec": [
 					""
@@ -39,7 +39,7 @@
 		{
 			"listen": "test",
 			"script": {
-				"id": "9ecaac3f-9db3-4728-a921-792672d619bc",
+				"id": "e70a2357-6d7f-4395-81db-02b21eb186b7",
 				"type": "text/javascript",
 				"exec": [
 					""
@@ -49,16 +49,17 @@
 	],
 	"variable": [
 		{
-			"id": "b807fc0e-9fe2-45ae-97f6-d4dcec24b236",
-			"key": "col_var1",
-			"value": "1",
+			"id": "4963f83b-4721-42ab-bf88-c0bb9ba7a9b7",
+			"key": "domain",
+			"value": "google",
 			"type": "string"
 		},
 		{
-			"id": "738bf421-9197-4019-951a-a5b03e92aac1",
+			"id": "7538bba7-cb09-41e5-8873-ee1427ad50c3",
 			"key": "col_var2",
 			"value": "2",
-			"type": "string"
+			"type": "string",
+			"disabled": true
 		}
 	]
 }
