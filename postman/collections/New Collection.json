@@ -1,0 +1,65 @@
+{
+	"info": {
+		"_postman_id": "b7fd0585-fe3d-4294-b0f5-4934235dc433",
+		"name": "New Collection",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_uid": "28335842-b7fd0585-fe3d-4294-b0f5-4934235dc433"
+	},
+	"item": [
+		{
+			"name": "New Request",
+			"id": "0a0111a4-6666-4afc-b968-ae469194c67c",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "google.com",
+					"host": [
+						"google",
+						"com"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"id": "027a660d-50bc-40ae-8508-09d5fa150788",
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"id": "be29cec4-dafa-4ed5-99c3-0f10bf60d476",
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		}
+	],
+	"variable": [
+		{
+			"id": "be1d6e9b-946a-478a-bd6d-a23ebd612725",
+			"key": "sss",
+			"value": "sss",
+			"type": "string"
+		},
+		{
+			"id": "914c10b2-2629-46a1-a3b1-1604af35d530",
+			"key": "ssss",
+			"value": "11",
+			"type": "string"
+		}
+	]
+}
