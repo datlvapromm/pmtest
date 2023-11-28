@@ -29,7 +29,7 @@
 		{
 			"listen": "prerequest",
 			"script": {
-				"id": "027a660d-50bc-40ae-8508-09d5fa150788",
+				"id": "e0c85f90-55d8-41c5-9dcf-82c70ecc7f07",
 				"type": "text/javascript",
 				"exec": [
 					""
@@ -39,7 +39,7 @@
 		{
 			"listen": "test",
 			"script": {
-				"id": "be29cec4-dafa-4ed5-99c3-0f10bf60d476",
+				"id": "9ecaac3f-9db3-4728-a921-792672d619bc",
 				"type": "text/javascript",
 				"exec": [
 					""
@@ -49,15 +49,15 @@
 	],
 	"variable": [
 		{
-			"id": "be1d6e9b-946a-478a-bd6d-a23ebd612725",
-			"key": "sss",
-			"value": "sss",
+			"id": "b807fc0e-9fe2-45ae-97f6-d4dcec24b236",
+			"key": "col_var1",
+			"value": "1",
 			"type": "string"
 		},
 		{
-			"id": "914c10b2-2629-46a1-a3b1-1604af35d530",
-			"key": "ssss",
-			"value": "11",
+			"id": "738bf421-9197-4019-951a-a5b03e92aac1",
+			"key": "col_var2",
+			"value": "2",
 			"type": "string"
 		}
 	]
